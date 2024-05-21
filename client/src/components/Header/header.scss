@@ -1,0 +1,38 @@
+header{
+    background-color: transparent;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    .container{
+        display: flex;
+        margin: 32px 400px;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            color: white;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+        .navs{
+            nav{
+                text-transform: uppercase;
+                display: flex;
+                font-size: 13px;
+                flex-direction: row;
+                align-items: center;
+                gap:30px;
+                padding-right: 50px;
+                .home{
+                    color: white;
+                }
+                a{
+                    color:rgb(183, 183, 183);
+                    transition: .5s;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
